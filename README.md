@@ -7,6 +7,30 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Requirements 
+
+PHP 8.1
+
+node 18
+
+MySql 5
+
+## Configurations 
+
+Create a database and modify .env DB_DATABASE={name} DB_USERNAME={user} DB_PASSWORD={pass}
+The emails will be sent to the email jorgeluis33ariosa@gmail.com via smtp server. If you want to change this way, you must modify the variables MAIL_MAILER
+MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
+
+## Instalation
+
+composer install
+
+npm install 
+
+run npm dev
+
+php artisan serve
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
