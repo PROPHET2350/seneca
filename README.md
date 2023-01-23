@@ -18,6 +18,7 @@ MySql 5
 ## Configurations 
 
 Create a database and modify .env DB_DATABASE={name} DB_USERNAME={user} DB_PASSWORD={pass}
+
 The emails will be sent to the email jorgeluis33ariosa@gmail.com via smtp server. If you want to change this way, you must modify the variables MAIL_MAILER
 MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
 
