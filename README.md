@@ -17,7 +17,7 @@ MySql 5
 
 ## Configurations 
 
-Create a database and modify in .env file the variables DB_DATABASE={name} DB_USERNAME={user} DB_PASSWORD={pass}
+Create a database and modify in .env file the variables DB_DATABASE={name} DB_USERNAME={user} DB_PASSWORD={pass} to make the DB connection
 
 The emails will be sent to the email jorgeluis33ariosa@gmail.com via smtp server. If you want to change, you must modify the variables MAIL_MAILER
 MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
@@ -28,11 +28,18 @@ MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
 
 2-npm install 
 
-3-realize the migrations with command php artisan make:migration
+3-realize the migrations with command php artisan migrate
 
-4-run npm dev
+4-insert the default user with command php artisan db:seed
 
-5-php artisan serve
+5-run npm dev
+
+6-php artisan serve
+
+## Default user credentials
+
+email (username): root@seneca.com
+password: password
 
 ## About Laravel
 
