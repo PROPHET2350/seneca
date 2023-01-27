@@ -36,6 +36,8 @@ MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
 
 6-login with the default user or create a new one, the verification email will send to the registered email
 
+7-go to the registered email and make sure the verifications email was sent properly
+
 ## Default user credentials
 
 email (username): root@seneca.com
