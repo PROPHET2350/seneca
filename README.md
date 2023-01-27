@@ -37,10 +37,10 @@ MySql 5
 
 ## Configurations 
 
-Create a database and configure the credentials on the variables DB_DATABASE={name} DB_USERNAME={user} DB_PASSWORD={pass} in file .env to make the DB connection
+Create a database and configure the credentials on the variables DB_DATABASE, DB_USERNAME, DB_PASSWORD in file .env to make the DB connection
 
-The emails will be sent to the email jorgeluis33ariosa@gmail.com via smtp server. If you want to change, you must modify the variables MAIL_MAILER
-MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
+The emails will be sent to the email jorgeluis33ariosa@gmail.com via smtp server. If you want to change, you must modify the variables MAIL_MAILER,
+MAIL_HOST, MAIL_PORT, MAIL_USERNAME, MAIL_PASSWORD in .env file
 
 ## Default user credentials
 
