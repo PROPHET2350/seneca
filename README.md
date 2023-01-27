@@ -24,7 +24,7 @@ MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
 
 ## Instalation
 
-1-install all dependencies with commands composer install vs npm install
+1-install all dependencies with commands <code>composer install</code> and <code>npm install</code>
 
 2-create a copy of the file .env.example and rename to .env . Make sure you have done the settings in the previous section
 
