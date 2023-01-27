@@ -15,13 +15,6 @@ node 18
 
 MySql 5
 
-## Configurations 
-
-Create a database and configure the credentials on the variables DB_DATABASE={name} DB_USERNAME={user} DB_PASSWORD={pass} in file .env to make the DB connection
-
-The emails will be sent to the email jorgeluis33ariosa@gmail.com via smtp server. If you want to change, you must modify the variables MAIL_MAILER
-MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
-
 ## Instalation
 
 1-clone or download the project
@@ -41,6 +34,13 @@ MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
 8-login with the default user or create a new one, the verification email will send to the registered email
 
 9-go to the registered email and make sure the verifications email was sent properly
+
+## Configurations 
+
+Create a database and configure the credentials on the variables DB_DATABASE={name} DB_USERNAME={user} DB_PASSWORD={pass} in file .env to make the DB connection
+
+The emails will be sent to the email jorgeluis33ariosa@gmail.com via smtp server. If you want to change, you must modify the variables MAIL_MAILER
+MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
 
 ## Default user credentials
 
