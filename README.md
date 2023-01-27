@@ -17,24 +17,24 @@ MySql 5
 
 ## Configurations 
 
-Create a database and modify in .env file the variables DB_DATABASE={name} DB_USERNAME={user} DB_PASSWORD={pass} to make the DB connection
+Create a database and configure the credentials on the variables DB_DATABASE={name} DB_USERNAME={user} DB_PASSWORD={pass} in file .env to make the DB connection
 
 The emails will be sent to the email jorgeluis33ariosa@gmail.com via smtp server. If you want to change, you must modify the variables MAIL_MAILER
 MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
 
 ## Instalation
 
-1-composer install
+1-install all dependencies with commands composer install vs npm install
 
-2-npm install 
+2-create a copy of the file .env.example and rename to .env . Make sure you have done the settings in the previous section
 
-3-realize the migrations with command php artisan migrate
+3-ealize the migrations with command php artisan migrate
 
 4-insert the default user with command php artisan db:seed
 
-5-run npm dev
+5-run npm run dev & php artisan serve to start up the server in http://127.0.0.1:8000
 
-6-php artisan serve
+6-login with the default user or create a new one, the verification email will send to the registered email
 
 ## Default user credentials
 
