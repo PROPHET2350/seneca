@@ -22,7 +22,8 @@ class DatabaseSeeder extends Seeder
             'lastname' => 'root',
             'address' => 'Quito',
             'birthday' => Date::now(),
-            'email' => 'jorgeluis33ariosa@gmail.com',
+            'email_verified_at' => Date::now(),
+            'email' => 'root@seneca.com',
             'password' => Hash::make('password'),
         ]);
     }
