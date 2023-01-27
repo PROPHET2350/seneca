@@ -26,7 +26,7 @@ MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
 
 1-install all dependencies with commands <code>composer install</code> and <code>npm install</code>
 
-2-create a copy of the file <code>.env.example</code> and rename to <code>.env</code> . Make sure you have done the settings in the previous section
+2-create a copy of the file <code>.env.example</code> and rename to <code>.env</code> . Make sure you have done the settings in the Configurations section
 
 3-ealize the migrations with command <code>php artisan migrate</code>
 
