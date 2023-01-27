@@ -26,13 +26,15 @@ MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
 
 1-install all dependencies with commands composer install vs npm install
 
-2-realize the migrations with command php artisan migrate
+2-create a copy of the file .env.example and rename to .env . Make sure you have done the settings in the previous section
 
-3-insert the default user with command php artisan db:seed
+3-ealize the migrations with command php artisan migrate
 
-4-run npm run dev & php artisan serve to start up the server in http://127.0.0.1:8000
+4-insert the default user with command php artisan db:seed
 
-5-login with the default user or create a new one, the verification email will send to the registered email
+5-run npm run dev & php artisan serve to start up the server in http://127.0.0.1:8000
+
+6-login with the default user or create a new one, the verification email will send to the registered email
 
 ## Default user credentials
 
