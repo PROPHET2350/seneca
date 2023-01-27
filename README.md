@@ -32,6 +32,8 @@ MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
 
 4-run npm run dev & php artisan serve to start up the server in http://127.0.0.1:8000
 
+5-login with the default user or create a new one, the verification email will send to the registered email
+
 ## Default user credentials
 
 email (username): root@seneca.com
