@@ -24,19 +24,23 @@ MAIL_HOST MAIL_PORT MAIL_USERNAME MAIL_PASSWORD in .env file
 
 ## Instalation
 
-1-install all dependencies with commands <code>composer install</code> and <code>npm install</code>
+1-clone or download the project
 
-2-create a copy of the file <code>.env.example</code> and rename to <code>.env</code> . Make sure you have done the settings in the Configurations section
+2-open a terminal and go to the project directory
 
-3-ealize the migrations with command <code>php artisan migrate</code>
+3-install all dependencies with commands <code>composer install</code> and <code>npm install</code>
 
-4-insert the default user with command <code>php artisan db:seed</code>
+4-create a copy of the file <code>.env.example</code> and rename to <code>.env</code> . Make sure you have done the settings in the Configurations section
 
-5-run <code>npm run dev</code> & <code>php artisan serve</code> (in different terminal) to start up the server in http://127.0.0.1:8000
+5-ealize the migrations with command <code>php artisan migrate</code>
 
-6-login with the default user or create a new one, the verification email will send to the registered email
+6-insert the default user with command <code>php artisan db:seed</code>
 
-7-go to the registered email and make sure the verifications email was sent properly
+7-run <code>npm run dev</code> & <code>php artisan serve</code> (in different terminal) to start up the server in http://127.0.0.1:8000
+
+8-login with the default user or create a new one, the verification email will send to the registered email
+
+9-go to the registered email and make sure the verifications email was sent properly
 
 ## Default user credentials
 
